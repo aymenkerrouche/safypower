@@ -55,17 +55,15 @@ class _StatistiqueState extends State<Statistique> {
                       children: [
                         
                         SizedBox(
-                          height: isMobile ? size.height * 0.6 : size.height * 0.4,
+                          height: isMobile ? size.height * 0.6 : size.height * 0.35,
                           child: const ExpenseIncomeCharts(),
                         ),
 
                         const SizedBox(
-                          height: 20,
+                          height: 10,
                         ),
                         
-                        const SizedBox(
-                          height: 20,
-                        ),
+                        
                         SizedBox(
                           height: size.height * 0.5,
                           child: const StatisticsCharts(),
@@ -73,10 +71,12 @@ class _StatistiqueState extends State<Statistique> {
                         const SizedBox(
                           height: 20,
                         ),
+
                         SizedBox(
                           height: size.height * 0.6,
                           child: const LastUsersMap(),
                         ),
+
                         const SizedBox(
                           height: 30,
                         ),

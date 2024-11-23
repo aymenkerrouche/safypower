@@ -18,7 +18,7 @@ class ExpenseIncomeCharts extends StatelessWidget {
                 child: currentUse() 
               ),
               const SizedBox(
-                width: 40,
+                width: 30,
               ),
               Flexible(
                 child: averageTime()
@@ -31,7 +31,7 @@ class ExpenseIncomeCharts extends StatelessWidget {
                 child: currentUse()
               ),
               const SizedBox(
-                height: 30,
+                height: 20,
               ),
               Flexible(
                 child: averageTime(),

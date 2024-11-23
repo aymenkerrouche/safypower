@@ -13,7 +13,7 @@ class TopAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(18.0),
+      padding: const EdgeInsets.all(10),
       child: Column(
         children: [
           Row(
@@ -33,7 +33,6 @@ class TopAppBar extends StatelessWidget {
                 ),
               ),
               Expanded(
-                flex: 2,
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 15),
                   decoration: BoxDecoration(
@@ -50,12 +49,11 @@ class TopAppBar extends StatelessWidget {
                   ),
                 ),
               ),
-              Expanded(
-                child: _nameAndProfilePicture(
-                  context,
-                  "Aymen KERROUCHE",
-                  "https://media.licdn.com/dms/image/v2/D4D03AQFayq9gXKBlAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726692387150?e=1736985600&v=beta&t=FP7JzzKnihP5ca4Io7u1ARA8zKjE87moa5edS1X1Fqo",
-                ),
+              SizedBox(width: 20,),
+              _nameAndProfilePicture(
+                context,
+                "Aymen KERROUCHE",
+                "https://media.licdn.com/dms/image/v2/D4D03AQFayq9gXKBlAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726692387150?e=1736985600&v=beta&t=FP7JzzKnihP5ca4Io7u1ARA8zKjE87moa5edS1X1Fqo",
               ),
             ],
           ),
