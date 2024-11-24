@@ -1,15 +1,23 @@
-# Fintech Dashboard Clone
+# SafyPower
 
-This repository is based on converting the mockup below into a flutter app.
+Test technique.
 
-![app](assets/dribble.png)
+![app](assets/logo.png)
 
 ## Screenshots of our project
 
-Desktop: 
+Statistique: 
 
-![app](assets/desktop.png)
+![app](assets/stats.png)
 
-Mobile: 
+Utilisateurs: 
 
-![app](assets/mobile.png)
+![app](assets/users.png)
+
+Tableau de bord: 
+
+![app](assets/tab.png)
+
+Alerte 
+
+![app](assets/danger.png)
